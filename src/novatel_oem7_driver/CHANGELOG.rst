@@ -2,6 +2,19 @@
 Changelog for package novatel_oem7_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+20.6.0 (2025-01-30)
+--------------------
+Various QoL changes
+
+Modifications:
+
+* Reduced log verbosity of various expected logs to DEBUG
+* Updated launch files to include all configurable parameters 
+* Added BESTGNSSVEL and RAWIMUSX Oem7 Messages
+* Expanded oem7_msgs.yaml and std_oem7_raw_msgs.yaml to include all topics matching Oem7Decoder database
+* Minor adjustments to std_init_commands.yaml
+
+
 20.5.0 (2024-09-26)
 --------------------
 Misc ROS2 fixes
