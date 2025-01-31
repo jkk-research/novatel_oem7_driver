@@ -1,15 +1,12 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package novatel_oem7_driver
+Changelog for package novatel_oem7_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-20.4.0 (2024-07-25)
+20.6.0 (2025-01-30)
 --------------------
-Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+Various QoL changes
 
-Fixes:
-
-* Adjusted Odometry to use undulation from BESTPOS or INSPVAX
-* Listed git as a dependency in CmakeLists.txt
+* BESTGNSSVEL, INSPVASX Oem7 Messages
 
 
 20.0.0 (2023-04-18)
