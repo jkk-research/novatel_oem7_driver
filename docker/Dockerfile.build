@@ -7,6 +7,7 @@ FROM ${ROS_ARCH}/ros:${ROS_DISTRO}
 
 ARG ROS_DISTRO
 ARG ROS=ros-${ROS_DISTRO}
+
 ARG USR
 
 ARG HOST_USERNAME
@@ -49,7 +50,6 @@ RUN if id ${HOST_UID} &>/dev/null; then \
     fi
 
 RUN echo "${USR}:${USR}" | chpasswd
-
 USER ${USR}
 
 CMD "/bin/bash"
