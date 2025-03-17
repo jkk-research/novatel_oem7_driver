@@ -26,7 +26,7 @@ http://wiki.ros.org/novatel_oem7_driver
 
 
 ### Installation
-#### Option A: Install binary package (not supported yet; coming soon)
+#### Option A: Install binary package
 There is substantial documention regarding use of the binary release of this driver on the ROS community wiki, located here:
 https://wiki.ros.org/novatel_oem7_driver
 
