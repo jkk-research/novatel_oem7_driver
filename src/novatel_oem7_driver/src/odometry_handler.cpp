@@ -173,6 +173,7 @@ namespace novatel_oem7_driver
 
     void publishOdometry()
     {
+      // Odometry requires a gpsfix topic to be present with valid position data in it
       if(!gpsfix_) 
       {
         // No data to derive basic Odometry values
