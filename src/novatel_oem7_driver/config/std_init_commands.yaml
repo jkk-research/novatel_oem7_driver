@@ -78,7 +78,7 @@ receiver_init_commands:
 # Do not remove these messages -------------------------------------------------------------------------- 
 - "LOG BESTPOSB ONTIME 0.1" 
 - "LOG BESTVELB ONTIME 0.1" 
-- "LOG BESTUTMB ONTIME 1"
+- "LOG BESTUTMB ONTIME 0.05"
 - "LOG PPPPOSB ONTIME 1"
 - "LOG HEADING2B ONNEW"
 - "LOG PSRDOP2B ONCHANGED"
